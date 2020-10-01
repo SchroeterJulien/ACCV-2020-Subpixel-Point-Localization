@@ -11,7 +11,7 @@ In this work, we propose a novel approach that allows for the end-to-end learnin
 
 
 ---
-### (Section 3.3) Detection Sparsity (Appendix Videos generation) [Tensorflow (1.13)]
+### (Section 3.3) Detection Sparsity (Supplemental Videos generation) [Tensorflow (1.13)]
 
 To produce the convergence videos (NoRegularizer.mp4 and WithRegularizer.mp4) simply set both: whether you want to use counting regularization (in line 7 in main.py) and the name of your video (in line 7 in main.py and line 4 in saveVideo.py). Then run,
 
@@ -19,6 +19,15 @@ To produce the convergence videos (NoRegularizer.mp4 and WithRegularizer.mp4) si
 python main.py
 python saveVideo.py
 ```
+
+#### Convergence WITHOUT regularizartion
+<div style="text-align:center"><img src="img/NoRegularizer.gif" alt="drawing" width="700"/></div>
+
+
+
+#### Convergence WITH regularizartion
+<div style="text-align:center"><img src="img/WithRegularizer.gif" alt="drawing" width="700"/></div>
+
 
 ---
 ### (Section 4.1) Single Molecule Localization Microscopy [PyTorch (1.3)]
