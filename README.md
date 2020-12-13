@@ -1,5 +1,5 @@
 # Learning Multi-Instance Sub-pixel Point Localization
-Under Review
+**ACCV 2020**
 
 <div style="text-align: justify">
 In this work, we propose a novel approach that allows for the end-to-end learning of multi-instance point detection with inherent sub-pixel precision capabilities. To infer unambiguous localization estimates, our model relies on three components: the continuous prediction capabilities of offset-regression-based models, the finer-grained spatial learning ability of a novel continuous heatmap matching loss function introduced to that effect, and the prediction sparsity ability of count-based regularization. We demonstrate state-of-the-art sub-pixel localization accuracy on molecule localization microscopy and checkerboard detection, and improved sub-frame event detection performance in sport videos.
